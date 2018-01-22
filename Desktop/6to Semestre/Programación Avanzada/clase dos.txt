@@ -1,0 +1,15 @@
+the max size of a process is 2 at 64 bits
+
+the usual size of a process is 2 at 32 bits
+
+4 kb is the regular size of the word 
+
+to address your pages you need 1mb 
+
+in one page you put only one part of the map 
+
+Comandos compilador "GCC" linux
+"gcc -o [nombre ejecutable] arrays.c"
+
+#"directiva" (parte de pre proceso)
+#include <studio.h>
