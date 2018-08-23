@@ -1,15 +1,3 @@
-@import url('https://fonts.googleapis.com/css?family=Changa:300,400');
-body{
-    font-family: 'Changa', sans-serif;
-}
-
-.flag{
-    width: 2em;
-    height: 2em;
-}
-
-.nav{
-     li{
-          background-color: #A0BAD7
-     }
-}
+@import "body";
+@import "flag";
+@import "nav";
