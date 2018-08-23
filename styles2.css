@@ -1,15 +1,32 @@
 @import url("https://fonts.googleapis.com/css?family=Changa:300,400");
-body {
+.nopadding {
+  padding: 0;
+}
+
+.header {
+  width: 100%;
+  height: auto;
+  margin: 0;
+  padding: 0;
+}
+
+.nav li {
+  background-color: #A0BAD7;
+}
+
+.qatar-img {
+  width: 100%;
+}
+
+div {
+  margin: 0;
+  padding: 0;
   font-family: "Changa", sans-serif;
 }
 
 .flag {
   width: 2em;
   height: 2em;
-}
-
-.nav li {
-  background-color: #A0BAD7;
 }
 
 /*# sourceMappingURL=styles2.css.map */
