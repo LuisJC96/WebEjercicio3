@@ -12,4 +12,20 @@ body {
   background-color: #A0BAD7;
 }
 
+.nopadding {
+  padding-right: 0;
+  padding-left: 0;
+}
+
+.header {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.qatar-img {
+  width: 100%;
+  height: 70vh;
+}
+
 /*# sourceMappingURL=stylesheet.css.map */
