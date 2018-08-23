@@ -8,13 +8,21 @@ body {
   height: 2em;
 }
 
+.cont-table {
+  padding: 1vh 3vw;
+}
+
 .nav li {
   background-color: #A0BAD7;
 }
 
 .nopadding {
-  padding-right: 0;
-  padding-left: 0;
+  padding: 0;
+}
+
+.nomargin {
+  margin-right: 0;
+  margin-left: 0;
 }
 
 .header {
