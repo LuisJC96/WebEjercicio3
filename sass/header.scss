@@ -1,3 +1,6 @@
+
+@import "mixin";
+@import "sizes";
 .nopadding{
     padding:0;
 }
@@ -9,9 +12,30 @@
     width: 100%;
     margin:0;
     padding:0;
+    @include gray;
+    .logo {
+        img{
+        width: 4.7vw;    
+        padding: 1vh 1vw;
+        }
+        label{
+            text-align: left;
+            @media(min-width: $md-screen){
+                font-size: 28pt;
+            }
+            @media(min-width: $sm-screen){
+                font-size: 25pt;
+            }
+            @media(min-width: $lg-screen){
+                font-size: 33pt;
+            }
+            padding: 1vh 1vw;
+        }
+    }
 }
 
 .qatar-img{
     width: 100%;
-    height: 70vh;
+    height: 50vh;
 }
+

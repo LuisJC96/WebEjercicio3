@@ -1,5 +1,6 @@
+@import "mixin";
 .nav{
      li{
-          background-color: #A0BAD7
+          @include blue;
      }
 }
