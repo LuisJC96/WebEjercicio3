@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Changa:300,400");
+@import url("https://fonts.googleapis.com/css?family=Changa:400,700");
 body {
   font-family: "Changa", sans-serif;
 }
@@ -10,6 +10,14 @@ body {
 
 .cont-table {
   padding: 1vh 3vw;
+}
+
+.table label {
+  font-size: 9.5pt;
+}
+
+.tab-margin label {
+  font-size: 12pt;
 }
 
 .nav li {
@@ -31,31 +39,51 @@ body {
   padding: 0;
   background-color: #D7D7D0;
 }
+.header .logo {
+  height: 13vh;
+  padding: 1vh 2vw;
+}
 .header .logo img {
-  width: 4.7vw;
+  vertical-align: top;
+  width: 100%;
+  height: 100%;
+}
+.header .labell {
   padding: 1vh 1vw;
 }
-.header .logo label {
-  text-align: left;
-  padding: 1vh 1vw;
+.header .labell p {
+  margin: 0;
+  font-weight: 700;
+  vertical-align: middle;
 }
-@media (min-width: 800px) {
-  .header .logo label {
-    font-size: 28pt;
+@media (min-width: 992px) {
+  .header .labell p {
+    text-align: left;
+    font-size: 33pt;
   }
 }
-@media (min-width: 500px) {
-  .header .logo label {
+@media (max-width: 992px) {
+  .header .labell p {
+    text-align: left;
+    font-size: 32pt;
+  }
+}
+@media (max-width: 768px) {
+  .header .labell p {
+    text-align: left;
     font-size: 25pt;
   }
 }
-@media (min-width: 1000) {
-  .header .logo label {
-    font-size: 33pt;
+@media (max-width: 576px) {
+  .header .labell p {
+    text-align: center;
+    font-size: 15pt;
   }
 }
 
 .qatar-img {
+  background-image: url("../img/catar.jpg");
+  background-size: 100% 100%;
   width: 100%;
   height: 50vh;
 }

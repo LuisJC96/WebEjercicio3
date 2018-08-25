@@ -16,3 +16,18 @@ $height: 100vh;
 .cont-table{
     padding: paddingh($height,98) paddingw($width,94);
 }
+.table{
+    label{
+        @if (max-width: $sm-screen){
+           font-size: 9.5pt;
+        }
+    }
+}
+
+.tab-margin{
+    label{
+        @if (max-width: $sm-screen){
+            font-size: 12pt;
+        }
+    }
+}
