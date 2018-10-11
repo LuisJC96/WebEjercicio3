@@ -1,0 +1,33 @@
+.flag{
+    width: 2em;
+    height: 2em;
+}
+
+$width: 100vw;
+$height: 100vh;
+
+@function paddingw($width,$size){
+    @return  ($width - $size)/2;
+}
+@function paddingh($height,$size){
+    @return  ($height - $size)/2;
+}
+
+.cont-table{
+    padding: paddingh($height,98) paddingw($width,94);
+}
+.table{
+    label{
+        @if (max-width: $sm-screen){
+           font-size: 9.5pt;
+        }
+    }
+}
+
+.tab-margin{
+    label{
+        @if (max-width: $sm-screen){
+            font-size: 12pt;
+        }
+    }
+}

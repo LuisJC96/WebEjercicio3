@@ -1,4 +1,7 @@
-.flag{
-    width: 1px;
-    height: 1px;
-}
+@import "sass/mixin";
+@import "sass/sizes";
+@import "sass/body";
+@import "sass/table";
+@import "sass/nav";
+@import "sass/header";
+

@@ -7,24 +7,30 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
       <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-      <link rel="stylesheet" type="text/css" href="Style.css">
+      <link rel="stylesheet" type="text/css" href="style/stylesheet.css">
   </head>
   <body>
-    <div class="container">
-      <div class="header" style="width:100%; height:auto;">
-        <img src="catar.jpg" alt="qatar" style="width:100%; max-height:400px;">
+    <div class="container-fluid nopadding">
+      <div class="header row">
+        <div class="col-xs-2 col-sm-1 logo"><img src="./img/logo.png"></div>
+        <div class="labell col-xs-10 col-sm-11"><p>دولة قطر 2022 / Qatar 2022</p></div>
       </div>
-        <div class="col-sm-12" style="margin-left: 0; padding-left: 0;">
+      <div class="qatar-img">
+       
+      </div>
+      <div class="row nomargin">
+        <div class="col-sm-12 nopadding">
         <ul class="nav nav-tabs nav-justified">
-            <li class="tab-margin"><a data-toggle="tab" href="#1">GrupoA</a></li>
-            <li><a class="tab-margin" data-toggle="tab" href="#2">GrupoB</a></li>
-            <li><a class="tab-margin" data-toggle="tab" href="#3">GrupoC</a></li>
-            <li><a class="tab-margin" data-toggle="tab" href="#4">GrupoD</a></li>
+            <li class="tab-margin"><a data-toggle="tab" href="#1"><label data-toggle="tooltip" data-placement="right" title="Grupo A">المجموعة أ</label></a></li>
+            <li><a class="tab-margin" data-toggle="tab" href="#2"><label data-toggle="tooltip" data-placement="right" title="Grupo B">المجموعة ب</label></a></li>
+            <li><a class="tab-margin" data-toggle="tab" href="#3"><label data-toggle="tooltip" data-placement="right" title="Grupo C">المجموعة ج</label></a></li>
+            <li><a class="tab-margin" data-toggle="tab" href="#4"><label data-toggle="tooltip" data-placement="right" title="Grupo D">المجموعة د</label></a></li>
         </ul>
+      </div>
     </div>
-    <div class="tab-content" style="width: 100%;">
-    <div id="1" class="tab-pane fade">
-            <table class="table">
+    <div class="tab-content">
+    <div id="1" class="tab-pane fade cont-table">
+            <table class="table table-hover">
               <thead>
                 <tr>
                   <th colspan="2">Equipos</th>
@@ -40,7 +46,7 @@
               <tbody>
                 <tr>
                   <td>1</td>
-                  <td><span class="glyphicon glyphicon-fire"></span>Croacia</td>
+                  <td><img class="flag" src="img/flags/hr.svg"/><label data-toggle="tooltip" data-placement="right" title="Croacia">كرواتيا</label></td>
                   <td>9</td>
                   <td>3</td>
                   <td>3</td>
@@ -51,7 +57,7 @@
                 </tr>
                 <tr>
                   <td>2</td>
-                  <td><span class="glyphicon glyphicon-fire"></span>Mexico</td>
+                  <td><img class="flag" src="img/flags/mx.svg"/><label data-toggle="tooltip" title="Mexico">المكسيك</label></td>
                   <td>99</td>
                   <td>5</td>
                   <td>3</td>
@@ -62,7 +68,7 @@
                 </tr>
                 <tr>
                   <td>3</td>
-                  <td><span class="glyphicon glyphicon-fire"></span>NorbertoLandia</td>
+                  <td><img class="flag" src="img/flags/fr.svg"/><label data-toggle="tooltip" data-placement="right" title="Francia">فرنسا</label></td>
                   <td>4</td>
                   <td>6</td>
                   <td>7</td>
@@ -73,7 +79,7 @@
                 </tr>
                 <tr>
                   <td>4</td>
-                  <td><span class="glyphicon glyphicon-fire"></span>Paty Esta enojadaPaty</td>
+                  <td><img class="flag" src="img/flags/ar.svg"/><label data-toggle="tooltip" data-placement="right" title="Argentina">الأرجنتين</label></td>
                   <td>7</td>
                   <td>1</td>
                   <td>1</td>
@@ -85,8 +91,8 @@
               </tbody>
             </table>
   </div>
-    <div id="2" class="tab-pane fade ">
-        <table class="table">
+    <div id="2" class="tab-pane fade cont-table">
+        <table class="table table-hover">
               <thead>
                 <tr>
                   <th colspan="2">Equipos</th>
@@ -102,7 +108,7 @@
               <tbody>
                 <tr>
                   <td>1</td>
-                  <td><span class="glyphicon glyphicon-fire"></span>México</td>
+                  <td><img class="flag" src="img/flags/br.svg"/><label data-toggle="tooltip" data-placement="right" title="Brasil">البرازيل</label></td>
                   <td>9</td>
                   <td>3</td>
                   <td>3</td>
@@ -113,7 +119,7 @@
                 </tr>
                 <tr>
                   <td>2</td>
-                  <td><span class="glyphicon glyphicon-fire"></span>Uruguay</td>
+                  <td><img class="flag" src="img/flags/uy.svg"/><label data-toggle="tooltip" data-placement="right" title="Uruguay">أوروغواي</label></td>
                   <td>99</td>
                   <td>5</td>
                   <td>3</td>
@@ -124,7 +130,7 @@
                 </tr>
                 <tr>
                   <td>3</td>
-                  <td><span class="glyphicon glyphicon-fire"></span>Timbuctú</td>
+                  <td><img class="flag" src="img/flags/de.svg"/><label data-toggle="tooltip" data-placement="right" title="Alemania">ألمانيا</label></td>
                   <td>4</td>
                   <td>6</td>
                   <td>7</td>
@@ -135,7 +141,7 @@
                 </tr>
                 <tr>
                   <td>4</td>
-                  <td><span class="glyphicon glyphicon-fire"></span>Tuvalu Ulterior</td>
+                  <td><img class="flag" src="img/flags/es.svg"/><label data-toggle="tooltip" data-placement="right" title="Espana">إسبانيا</label></td>
                   <td>7</td>
                   <td>1</td>
                   <td>1</td>
@@ -148,8 +154,8 @@
             </table>
     </div>
 
-    <div id="3" class="tab-pane fade ">
-        <table class="table">
+    <div id="3" class="tab-pane fade cont-table">
+        <table class="table table-hover">
               <thead>
                 <tr>
                   <th colspan="2">Equipos</th>
@@ -165,7 +171,7 @@
               <tbody>
                 <tr>
                   <td>1</td>
-                  <td><span class="glyphicon glyphicon-fire"></span>Somalia</td>
+                  <td><img class="flag" src="img/flags/so.svg"/><label data-toggle="tooltip" data-placement="right" title="Somalia">الصومال</label></td>
                   <td>9</td>
                   <td>3</td>
                   <td>3</td>
@@ -176,7 +182,7 @@
                 </tr>
                 <tr>
                   <td>2</td>
-                  <td><span class="glyphicon glyphicon-fire"></span>Arabia Saudita</td>
+                  <td><img class="flag" src="img/flags/sa.svg"/><label data-toggle="tooltip" data-placement="right" title="Arabia Saudita">المملكة العربية السعودية</label></td>
                   <td>99</td>
                   <td>5</td>
                   <td>3</td>
@@ -187,7 +193,7 @@
                 </tr>
                 <tr>
                   <td>3</td>
-                  <td><span class="glyphicon glyphicon-fire"></span>Nopal</td>
+                  <td><img class="flag" src="img/flags/np.svg"/><label data-toggle="tooltip" data-placement="right" title="Nepal">نيبال</label></td>
                   <td>4</td>
                   <td>6</td>
                   <td>7</td>
@@ -198,7 +204,7 @@
                 </tr>
                 <tr>
                   <td>4</td>
-                  <td><span class="glyphicon glyphicon-fire"></span>Paty Esta enojadaPaty</td>
+                  <td><img class="flag" src="img/flags/cn.svg"/><label data-toggle="tooltip" data-placement="right" title="China">الصين</label></td>
                   <td>7</td>
                   <td>1</td>
                   <td>1</td>
@@ -210,8 +216,8 @@
               </tbody>
             </table>
      </div>
-     <div id="4" class="tab-pane fade ">
-                    <table class="table">
+     <div id="4" class="tab-pane fade cont-table">
+                    <table class="table table-hover">
               <thead>
                 <tr>
                   <th colspan="2">Equipos</th>
@@ -227,7 +233,7 @@
               <tbody>
                 <tr>
                   <td>1</td>
-                  <td><span class="glyphicon glyphicon-fire"></span>Sudafrica</td>
+                  <td><img class="flag" src="img/flags/za.svg"/><label data-toggle="tooltip" data-placement="right" title="Sudafrica">جنوب افريقيا</label></td>
                   <td>9</td>
                   <td>3</td>
                   <td>3</td>
@@ -238,7 +244,7 @@
                 </tr>
                 <tr>
                   <td>2</td>
-                  <td><span class="glyphicon glyphicon-fire"></span>Luxemburgo</td>
+                  <td><img class="flag" src="img/flags/lu.svg"/><label data-toggle="tooltip" data-placement="right" title="Luxemburgo">لوكسمبورجو</label></td>
                   <td>99</td>
                   <td>5</td>
                   <td>3</td>
@@ -249,7 +255,7 @@
                 </tr>
                 <tr>
                   <td>3</td>
-                  <td><span class="glyphicon glyphicon-fire"></span>Nueva Zelandia</td>
+                  <td><img class="flag" src="img/flags/nz.svg"/><label data-toggle="tooltip" data-placement="right" title="Nueva Zelandia">نيوزيلندا</label></td>
                   <td>4</td>
                   <td>6</td>
                   <td>7</td>
@@ -260,7 +266,7 @@
                 </tr>
                 <tr>
                   <td>4</td>
-                  <td><span class="glyphicon glyphicon-fire"></span>Vieja York</td>
+                  <td><img class="flag" src="img/flags/us.svg"/><label data-toggle="tooltip" data-placement="right" title="Estados Unidos">الولايات المتحدة الأمريكية</label></td>
                   <td>7</td>
                   <td>1</td>
                   <td>1</td>
@@ -273,10 +279,10 @@
             </table>
      </div>
  </div>
-    
-    
-            
-            
+
+
+
+
     </div>
   </body>
 </html>
